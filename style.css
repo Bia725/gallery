@@ -1,0 +1,215 @@
+
+
+/* setting margins and padding to 0 will make white space disappear in Google*/
+
+body { margin-top: 0;
+  margin-left: 0;
+  padding:0;
+  margin-right: 0; 
+  margin-bottom: 0;
+}
+
+
+/*navbar is created by using li and ul lists and positioned with float*/
+
+#navbar{
+
+border-bottom: 22px #000000;
+position: fixed;
+margin-top: 0;
+width: 100%; 
+}
+
+#navbar li{
+float: right;
+}
+
+
+ul{
+list-style-type: none;
+overflow: hidden;
+padding: 0px;
+margin:auto; 
+background-color: #be3144;
+font-size: 160%; 
+font-weight: bold;
+}
+
+#navbar a{
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px 11px; 
+  text-decoration: none;
+
+} 
+
+
+li a:hover:not(.active) {
+  background-color: #30455e;
+}
+
+
+#welcome-section{
+text-align: center;
+background-color: #303841;
+background-image: linear-gradient(52deg, #3a3d40 0%, #181719 100%);
+padding: 250px; 
+}
+ 
+h1{
+font-size: 460%;  
+color: white;
+font-family: 'Poppins', sans-serif;
+}
+
+.welcomed{
+color:  #be3144;
+font-size: 230%;
+
+}
+
+.projects{
+  background-color: #45567d;
+
+}
+
+.project-title{
+  color: rgb(255, 255, 255);
+  padding-top: 3rem; 
+  text-align: center;
+  font-size: 280%; 
+  margin-bottom: 55px;
+  letter-spacing: 3px;
+text-decoration-line: underline;
+font-family: 'Poppins', sans-serif;
+margin-top: -5px; 
+
+}
+
+
+.container{
+  display: flex ;
+  flex-direction: row; 
+  justify-content: space-evenly;
+ flex-wrap: wrap;
+  gap: 2px;
+}
+
+.box{
+width: 30%; 
+color: white; 
+font-size: x-large;
+margin-bottom: 3rem;
+text-align: center;
+background-color:  #303841;
+font-family: 'Poppins', sans-serif;
+
+}
+
+
+p:hover .sign {
+  color: rgb(237, 99, 71);
+  display: inline ; 
+  font-size: x-large;
+  transition: ease-out; 
+  transition: 3s; 
+}
+
+.sign{ 
+display: none;
+}
+
+.image1
+{
+  flex-basis: auto;
+  width: 100%; 
+  height: 85%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.button {
+  display: inline-block;
+  padding: 1rem 1rem;
+  text-align: center;
+  background-color: #303841;
+  margin-left: 700px;
+  text-decoration: none;
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 130%; 
+  border-radius: 6px;
+  margin-bottom: 6rem;
+  margin-top: 5rem;
+}
+
+.button:hover {
+  background-color: #be3144;
+  transition-duration: 0.6s;
+}
+   
+
+/* flexbox used to position texts in the container  with a centered  position*/
+.last {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #303841;
+  padding: 130px;
+
+}
+
+.coffe{
+  color: white;
+  font-size: 150%;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  height: 158px;
+  font-style: italic;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 420%; 
+  text-shadow: 2px 2px 5px rgb(20, 19, 19);
+  color: white;
+}
+
+.links{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-size: 2.2rem;
+  color: white;
+  text-shadow: 2px 2px 5px rgb(20, 19, 19);
+  display: inline-block;
+  padding: 1rem 2rem;
+}
+
+/*flexbox is used to position the footer at the bottom of the page, setting the margin<<<< important*/
+
+.footer{
+  display: flex; 
+  justify-content: space-evenly;
+  padding: 2rem;
+  border-top: 4px solid  #be3144;
+  margin-top: auto;
+  font-size: 1.60rem;
+  color: white;
+  background-color: #303841;
+}
+
+.portfolio
+.credits
+{
+  vertical-align: middle;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+ 
